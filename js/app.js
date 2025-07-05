@@ -230,10 +230,6 @@ class AWSQuiz {
                     <span class="user-answer ${answer.isCorrect ? 'correct' : 'incorrect'}">
                         あなたの回答: ${answer.userAnswer}
                     </span>
-                    ${!answer.isCorrect ?
-                        `<span class="correct-answer">正解: ${answer.correctAnswer}</span>` :
-                        ''
-                    }
                 </div>
             `;
 
