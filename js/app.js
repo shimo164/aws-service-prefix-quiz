@@ -4,7 +4,7 @@ class AWSQuiz {
         this.config = {
             siteUrl: this.getSiteUrl()
         };
-        
+
         this.questions = [];
         this.currentQuestionIndex = 0;
         this.userAnswers = [];
@@ -15,13 +15,13 @@ class AWSQuiz {
         this.loadQuestions();
         this.bindEvents();
     }
-    
+
     getSiteUrl() {
         // Auto-detect site URL for GitHub Pages and localhost
         const protocol = window.location.protocol;
         const host = window.location.host;
         const pathname = window.location.pathname;
-        
+
         // For GitHub Pages: https://username.github.io/repository-name/
         // For localhost: http://localhost:8000/
         if (pathname === '/' || pathname === '') {
@@ -234,18 +234,18 @@ class AWSQuiz {
     shareToTwitter() {
         const correctAnswers = this.userAnswers.filter(answer => answer.isCorrect).length;
         const totalQuestions = this.userAnswers.length;
-        const tweetText = `AWSサービスAWS?Amazon?ゲームで${correctAnswers}/${totalQuestions}問正解しました！ ${this.config.siteUrl}`;
+        const tweetText = `このAWSサービスのPrefixはAWS?Amazon?クイズで${correctAnswers}問/${totalQuestions}問正解しました！ ${this.config.siteUrl}`;
         const tweetUrl = `https://twitter.com/intent/tweet?text=${encodeURIComponent(tweetText)}`;
         window.open(tweetUrl, '_blank');
     }
-    
+
     quitQuiz() {
         if (this.userAnswers.length === 0) {
             // No answers yet, just go back to start
             this.restartQuiz();
             return;
         }
-        
+
         // Stop timer and show results for answered questions
         this.stopTimer();
         this.showResults();
