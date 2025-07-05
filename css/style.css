@@ -304,73 +304,73 @@ p {
     .container {
         padding: 10px;
     }
-    
+
     .card {
         padding: 30px 20px;
     }
-    
+
     h1 {
         font-size: 2rem;
     }
-    
+
     h2 {
         font-size: 1.5rem;
     }
-    
+
     .quiz-header {
         flex-direction: column;
         gap: 15px;
         text-align: center;
     }
-    
+
     .answer-buttons {
         flex-direction: column;
         align-items: center;
     }
-    
+
     .btn-answer {
         width: 100%;
         max-width: 200px;
     }
-    
+
     .review-item {
         flex-direction: column;
         align-items: flex-start;
         gap: 10px;
     }
-    
+
     .answer-info {
         width: 100%;
         justify-content: space-between;
     }
-    
+
     .action-buttons {
         flex-direction: column;
         align-items: center;
         gap: 15px;
     }
-    
+
     .btn-twitter {
         width: 100%;
         max-width: 200px;
     }
-    
+
     .btn-quit {
         position: static;
         margin-top: 20px;
         width: 100%;
         max-width: 120px;
     }
-    
+
     .mode-toggle {
         margin: 20px 0;
     }
-    
+
     .toggle-buttons {
         width: 100%;
         max-width: 250px;
     }
-    
+
     .btn-mode {
         flex: 1;
         min-width: auto;

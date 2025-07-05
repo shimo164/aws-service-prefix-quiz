@@ -13,16 +13,16 @@
             <div class="card">
                 <h1>AWS Service Prefix Quiz</h1>
                 <p>AWSサービス名のPrefixが「AWS」か「Amazon」かを当てるクイズです</p>
-                
+
                 <!-- Mode Toggle -->
                 <div class="mode-toggle">
                     <label class="toggle-label">Mode:</label>
                     <div class="toggle-buttons">
-                        <button id="basic-mode" class="btn btn-mode active" data-mode="basic">Basic</button>
-                        <button id="advanced-mode" class="btn btn-mode" data-mode="advanced">Advanced</button>
+                        <button id="basic-mode" class="btn btn-mode active" data-mode="basic">Basic<br>Q20</button>
+                        <button id="advanced-mode" class="btn btn-mode" data-mode="advanced">Advanced<br>Q200</button>
                     </div>
                 </div>
-                
+
                 <button id="start-btn" class="btn btn-primary">スタート</button>
             </div>
         </div>
@@ -37,15 +37,15 @@
                     <span id="question-counter">1 / 6</span>
                 </div>
             </div>
-            
+
             <div class="card">
                 <h2 id="question-text">Amplify</h2>
-                
+
                 <div class="answer-buttons">
                     <button id="aws-btn" class="btn btn-answer" data-answer="AWS">AWS</button>
                     <button id="amazon-btn" class="btn btn-answer" data-answer="Amazon">Amazon</button>
                 </div>
-                
+
                 <button id="quit-btn" class="btn btn-quit">終わる</button>
             </div>
         </div>
@@ -64,11 +64,11 @@
                         <span id="final-time">00:00</span>
                     </div>
                 </div>
-                
+
                 <div id="answer-review" class="answer-review">
                     <!-- Results will be populated here -->
                 </div>
-                
+
                 <div class="action-buttons">
                     <button id="restart-btn" class="btn btn-primary">もう一度挑戦</button>
                     <button id="twitter-btn" class="btn btn-twitter">Xに投稿</button>
