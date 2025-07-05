@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>AWS Service Prefix Quiz</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <div class="container">
+        <!-- Start Screen -->
+        <div id="start-screen" class="screen active">
+            <div class="card">
+                <h1>AWS Service Prefix Quiz</h1>
+                <p>AWSサービス名のPrefixが「AWS」か「Amazon」かを当てるクイズです</p>
+                <button id="start-btn" class="btn btn-primary">スタート</button>
+            </div>
+        </div>
+
+        <!-- Quiz Screen -->
+        <div id="quiz-screen" class="screen">
+            <div class="quiz-header">
+                <div class="timer">
+                    <span id="timer-display">00:00</span>
+                </div>
+                <div class="progress">
+                    <span id="question-counter">1 / 6</span>
+                </div>
+            </div>
+            
+            <div class="card">
+                <h2 id="question-text">Amplify</h2>
+                
+                <div class="answer-buttons">
+                    <button id="aws-btn" class="btn btn-answer" data-answer="AWS">AWS</button>
+                    <button id="amazon-btn" class="btn btn-answer" data-answer="Amazon">Amazon</button>
+                </div>
+                
+                <button id="quit-btn" class="btn btn-quit">終わる</button>
+            </div>
+        </div>
+
+        <!-- Result Screen -->
+        <div id="result-screen" class="screen">
+            <div class="card">
+                <h1>結果発表</h1>
+                <div class="score-summary">
+                    <div class="score-item">
+                        <span class="label">正解数:</span>
+                        <span id="correct-count">0</span> / <span id="total-count">6</span>
+                    </div>
+                    <div class="score-item">
+                        <span class="label">タイム:</span>
+                        <span id="final-time">00:00</span>
+                    </div>
+                </div>
+                
+                <div id="answer-review" class="answer-review">
+                    <!-- Results will be populated here -->
+                </div>
+                
+                <div class="action-buttons">
+                    <button id="restart-btn" class="btn btn-primary">もう一度挑戦</button>
+                    <button id="twitter-btn" class="btn btn-twitter">Xに投稿</button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script src="js/app.js"></script>
+</body>
+</html>
