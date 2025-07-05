@@ -1,0 +1,218 @@
+AWS Activate for Startups
+AWS Amplify
+Amazon API Gateway
+AWS App Mesh
+AWS App Runner
+AWS App Studio
+AWS AppConfig
+AWS AppFabric
+Amazon AppFlow
+AWS Application Discovery Service
+AWS Application Migration Service
+Amazon AppStream 2.0
+AWS AppSync
+AWS Artifact
+Amazon Athena
+AWS Audit Manager
+Amazon Augmented AI
+Amazon Aurora
+Amazon RDS
+Amazon Aurora DSQL
+AWS Auto Scaling
+AWS B2B Data Interchange
+AWS Backup
+AWS Batch
+Amazon Bedrock
+AWS Billing and Cost Management
+AWS Billing Conductor
+Amazon Braket
+AWS Certificate Manager
+Amazon Chime
+Amazon Chime SDK
+AWS Clean Rooms
+AWS Cloud Map
+AWS Cloud9
+AWS CloudFormation
+Amazon CloudFront
+AWS CloudHSM
+Amazon CloudSearch
+AWS CloudShell
+AWS CloudTrail
+Amazon CloudWatch
+AWS CodeArtifact
+AWS CodeBuild
+Amazon CodeCatalyst
+AWS CodeCommit
+AWS CodeDeploy
+Amazon CodeGuru
+AWS CodePipeline
+Amazon Cognito
+Amazon Comprehend
+Amazon Comprehend Medical
+AWS Compute Optimizer
+AWS Config
+Amazon Connect
+AWS Control Tower
+AWS Data Exchange
+Amazon Data Firehose
+AWS Data Transfer Terminal
+AWS Database Migration Service
+AWS DataSync
+Amazon DataZone
+AWS Deadline Cloud
+AWS DeepComposer
+AWS DeepRacer
+Amazon Detective
+AWS Device Farm
+Amazon DevOps Guru
+AWS Direct Connect
+AWS Directory Service
+Amazon DocumentDB
+Amazon DynamoDB
+Amazon EC2
+Amazon EFS
+AWS Elastic Beanstalk
+Amazon Elastic Container Registry
+Amazon Elastic Container Service
+AWS Elastic Disaster Recovery
+Amazon Elastic Kubernetes Service
+Amazon Elastic Transcoder
+Amazon Elastic VMware Service (Preview)
+Amazon ElastiCache
+AWS Elemental Appliances & Software
+Amazon EMR
+AWS End User Messaging
+AWS Entity Resolution
+Amazon EventBridge
+Amazon FinSpace
+AWS Firewall Manager
+AWS Fault Injection Service
+Amazon Forecast
+Amazon Fraud Detector
+Amazon FSx
+Amazon GameLift Servers
+Amazon GameLift Streams
+AWS Global Accelerator
+AWS Glue
+AWS Glue DataBrew
+Amazon Managed Grafana
+AWS Ground Station
+Amazon GuardDuty
+AWS Health Dashboard
+AWS IAM
+AWS IAM Identity Center
+AWS Incident Manager
+AWS Infrastructure Composer
+Amazon Inspector
+Amazon Interactive Video Service
+AWS IoT Analytics
+AWS IoT Core
+AWS IoT Device Defender
+AWS IoT Device Management
+AWS IoT Events
+AWS IoT FleetWise
+AWS IoT Greengrass
+AWS IoT SiteWise
+AWS IoT TwinMaker
+AWS IQ
+Amazon Kendra
+AWS Key Management Service
+Amazon Keyspaces
+Amazon Kinesis
+Amazon Kinesis Video Streams
+AWS Lake Formation
+AWS Lambda
+AWS Launch Wizard
+Amazon Lex
+AWS License Manager
+Amazon Lightsail
+Amazon Location Service
+Amazon Lookout for Equipment
+Amazon Macie
+AWS Mainframe Modernization
+Amazon Managed Apache Airflow
+Amazon Managed Apache Flink
+Amazon Managed Blockchain
+AWS Marketplace
+AWS MediaConnect
+AWS MediaConvert
+AWS MediaLive
+AWS MediaPackage
+AWS MediaStore
+AWS MediaTailor
+Amazon MemoryDB
+AWS Migration Hub
+Amazon Monitron
+Amazon MQ
+Amazon MSK
+Amazon Neptune
+Amazon One Enterprise
+Amazon OpenSearch Service
+Oracle Database@AWS
+AWS Organizations
+AWS Outposts
+AWS Panorama
+AWS Parallel Computing Service
+AWS Payment Cryptography
+Amazon Personalize
+Amazon Pinpoint
+Amazon Polly
+AWS Private Certificate Authority
+Amazon Prometheus
+AWS Proton
+Amazon Q
+Amazon QLDB
+Amazon QuickSight
+AWS re:Post Private
+AWS Recycle Bin
+Red Hat OpenShift Service on AWS
+Amazon Redshift
+Amazon Rekognition
+AWS Resilience Hub
+AWS Resource Access Manager
+AWS Resource Explorer
+AWS Resource Groups & Tag Editor
+AWS RoboMaker
+Amazon Route 53
+Amazon S3
+Amazon S3 Glacier
+Amazon SageMaker
+Amazon SageMaker AI
+AWS Secrets Manager
+AWS Security Hub
+AWS Security Incident Response
+Amazon Security Lake
+AWS Serverless Application Repository
+AWS Service Catalog
+AWS Service Quotas
+AWS Signer
+Amazon Simple Email Service
+Amazon Simple Notification Service
+Amazon Simple Queue Service
+AWS SimSpace Weaver
+AWS Snow Family
+AWS Step Functions
+AWS Storage Gateway
+AWS Supply Chain
+AWS Support
+Amazon SWF
+AWS Systems Manager
+AWS Telco Network Builder
+Amazon Textract
+Amazon Timestream
+Amazon Transcribe
+AWS Transfer Family
+AWS Transform
+Amazon Translate
+AWS Trusted Advisor
+AWS User Notifications
+Amazon Verified Permissions
+Amazon VPC
+AWS WAF
+AWS Shield
+AWS Well-Architected Tool
+AWS Wickr
+Amazon WorkDocs
+Amazon WorkMail
+Amazon WorkSpaces
+AWS X-Ray

@@ -1,0 +1,20 @@
+AWS IAM (Identity and Access Management)
+Amazon S3 (Simple Storage Service)
+Amazon EC2 (Elastic Compute Cloud)
+Amazon VPC (Virtual Private Cloud)
+Amazon RDS (Relational Database Service)
+Amazon Route 53
+Amazon CloudFront
+Amazon CloudWatch
+AWS Lambda
+Amazon DynamoDB
+AWS Elastic Load Balancing (ELB)
+AWS Systems Manager
+AWS CloudFormation
+Amazon SQS (Simple Queue Service)
+Amazon SNS (Simple Notification Service)
+AWS KMS (Key Management Service)
+AWS Secrets Manager
+Amazon ECS (Elastic Container Service)
+AWS WAF (Web Application Firewall)
+AWS Organizations

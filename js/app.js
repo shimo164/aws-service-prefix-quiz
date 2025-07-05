@@ -10,6 +10,7 @@ class AWSQuiz {
         this.userAnswers = [];
         this.startTime = null;
         this.timerInterval = null;
+        this.currentMode = 'basic'; // Default mode
 
         this.initializeElements();
         this.loadQuestions();
@@ -46,6 +47,8 @@ class AWSQuiz {
         this.restartBtn = document.getElementById('restart-btn');
         this.twitterBtn = document.getElementById('twitter-btn');
         this.quitBtn = document.getElementById('quit-btn');
+        this.basicModeBtn = document.getElementById('basic-mode');
+        this.advancedModeBtn = document.getElementById('advanced-mode');
 
         // Display elements
         this.timerDisplay = document.getElementById('timer-display');
@@ -59,7 +62,8 @@ class AWSQuiz {
 
     async loadQuestions() {
         try {
-            const response = await fetch('questions/services.txt');
+            const fileName = `questions/${this.currentMode}.txt`;
+            const response = await fetch(fileName);
             const text = await response.text();
             const services = text.trim().split('\n').filter(line => line.trim());
 
@@ -104,6 +108,19 @@ class AWSQuiz {
         this.restartBtn.addEventListener('click', () => this.restartQuiz());
         this.twitterBtn.addEventListener('click', () => this.shareToTwitter());
         this.quitBtn.addEventListener('click', () => this.quitQuiz());
+        this.basicModeBtn.addEventListener('click', () => this.selectMode('basic'));
+        this.advancedModeBtn.addEventListener('click', () => this.selectMode('advanced'));
+    }
+
+    selectMode(mode) {
+        this.currentMode = mode;
+
+        // Update button states
+        this.basicModeBtn.classList.toggle('active', mode === 'basic');
+        this.advancedModeBtn.classList.toggle('active', mode === 'advanced');
+
+        // Reload questions for the selected mode
+        this.loadQuestions();
     }
 
     startQuiz() {
@@ -234,7 +251,8 @@ class AWSQuiz {
     shareToTwitter() {
         const correctAnswers = this.userAnswers.filter(answer => answer.isCorrect).length;
         const totalQuestions = this.userAnswers.length;
-        const tweetText = `このAWSサービスのPrefixはAWS?Amazon?クイズで${correctAnswers}問/${totalQuestions}問正解しました！ ${this.config.siteUrl}`;
+        const modeText = this.currentMode === 'basic' ? 'Basic' : 'Advanced';
+        const tweetText = `「このAWSサービスのプレフィックスはAWS？Amazon？」クイズ(${modeText}モード)で${totalQuestions}問中${correctAnswers}問正解しました！ ${this.config.siteUrl}`;
         const tweetUrl = `https://twitter.com/intent/tweet?text=${encodeURIComponent(tweetText)}`;
         window.open(tweetUrl, '_blank');
     }
