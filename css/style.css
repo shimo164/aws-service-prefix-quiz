@@ -143,14 +143,14 @@ p {
 }
 
 .btn-twitter {
-    background: linear-gradient(135deg, #1da1f2, #0d8bd9);
+    background: black;
     color: white;
-    box-shadow: 0 10px 20px rgba(29, 161, 242, 0.3);
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.3);
 }
 
 .btn-twitter:hover {
     transform: translateY(-2px);
-    box-shadow: 0 15px 30px rgba(29, 161, 242, 0.4);
+    box-shadow: 0 15px 30px rgba(0, 0, 0, 0.4);
 }
 
 .action-buttons {
