@@ -46,6 +46,8 @@ class AWSQuiz {
         this.amazonBtn = document.getElementById('amazon-btn');
         this.restartBtn = document.getElementById('restart-btn');
         this.twitterBtn = document.getElementById('twitter-btn');
+        this.restartBtn2 = document.getElementById('restart-btn-2');
+        this.twitterBtn2 = document.getElementById('twitter-btn-2');
         this.quitBtn = document.getElementById('quit-btn');
         this.basicModeBtn = document.getElementById('basic-mode');
         this.advancedModeBtn = document.getElementById('advanced-mode');
@@ -107,6 +109,8 @@ class AWSQuiz {
         this.amazonBtn.addEventListener('click', () => this.selectAnswer('Amazon'));
         this.restartBtn.addEventListener('click', () => this.restartQuiz());
         this.twitterBtn.addEventListener('click', () => this.shareToTwitter());
+        this.restartBtn2.addEventListener('click', () => this.restartQuiz());
+        this.twitterBtn2.addEventListener('click', () => this.shareToTwitter());
         this.quitBtn.addEventListener('click', () => this.quitQuiz());
         this.basicModeBtn.addEventListener('click', () => this.selectMode('basic'));
         this.advancedModeBtn.addEventListener('click', () => this.selectMode('advanced'));
