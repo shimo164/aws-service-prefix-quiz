@@ -258,6 +258,14 @@ class AWSQuiz {
     }
 
     quitQuiz() {
+        // Show confirmation dialog
+        const confirmQuit = confirm('終了しますか？');
+        
+        if (!confirmQuit) {
+            // User clicked Cancel, do nothing
+            return;
+        }
+        
         if (this.userAnswers.length === 0) {
             // No answers yet, just go back to start
             this.restartQuiz();
